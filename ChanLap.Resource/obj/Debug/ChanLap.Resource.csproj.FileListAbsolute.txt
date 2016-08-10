@@ -1,0 +1,7 @@
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Resource\bin\Debug\ChanLap.Resource.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Resource\bin\Debug\ChanLap.Resource.pdb
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Resource\obj\Debug\ChanLap.Resource.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Resource\obj\Debug\ChanLap.Resource.pdb
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Resource\obj\Debug\ChanLap.Resource.Message.resources
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Resource\obj\Debug\ChanLap.Resource.csproj.GenerateResource.Cache
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Resource\obj\Debug\ChanLap.Resource.csprojResolveAssemblyReference.cache

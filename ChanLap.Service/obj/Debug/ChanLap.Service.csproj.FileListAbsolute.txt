@@ -1,0 +1,13 @@
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\ChanLap.Service.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\ChanLap.Service.pdb
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\obj\Debug\ChanLap.Service.csprojResolveAssemblyReference.cache
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\obj\Debug\ChanLap.Service.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\obj\Debug\ChanLap.Service.pdb
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\ChanLap.Infrastructure.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\ChanLap.Model.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\EntityFramework.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\ChanLap.Common.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\ChanLap.Infrastructure.pdb
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\ChanLap.Model.pdb
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\EntityFramework.xml
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Service\bin\Debug\ChanLap.Common.pdb

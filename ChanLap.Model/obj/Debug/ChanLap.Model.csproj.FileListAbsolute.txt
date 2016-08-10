@@ -1,0 +1,5 @@
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Model\bin\Debug\ChanLap.Model.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Model\bin\Debug\ChanLap.Model.pdb
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Model\obj\Debug\ChanLap.Model.csprojResolveAssemblyReference.cache
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Model\obj\Debug\ChanLap.Model.dll
+D:\OWN\ChanLap\Solution\ChanLap\ChanLap.Model\obj\Debug\ChanLap.Model.pdb
