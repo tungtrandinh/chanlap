@@ -3,42 +3,128 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <title>@ViewBag.Title - Chan Lap</title>
+    <link href="~/content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="~/content/animate.css" rel="stylesheet">
+    <link href="~/content/style.css" rel="stylesheet">
 
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+<body class="top-navigation">
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+            <div class="row border-bottom white-bg">
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <div class="navbar-header">
+                        <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                            <i class="fa fa-reorder"></i>
+                        </button>
+                        <a href="#" class="navbar-brand">Chấn Lập</a>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbar">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Kinh doanh <span class="caret"></span></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li><a href="#">Yêu cầu khách hàng</a></li>
+                                    <li><a href="#">Đơn hàng</a></li>
+                                    <li><a href="#">Khách hàng</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Kế hoạch <span class="caret"></span></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li><a href="#">Menu item</a></li>
+                                    <li><a href="#">Menu item</a></li>
+                                    <li><a href="#">Menu item</a></li>
+                                    <li><a href="#">Menu item</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Thiết kế <span class="caret"></span></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li><a href="#">Menu item</a></li>
+                                    <li><a href="#">Menu item</a></li>
+                                    <li><a href="#">Menu item</a></li>
+                                    <li><a href="#">Menu item</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Sản xuất <span class="caret"></span></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li><a href="#">Menu item</a></li>
+                                    <li><a href="#">Menu item</a></li>
+                                    <li><a href="#">Menu item</a></li>
+                                    <li><a href="#">Menu item</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-top-links navbar-right">
+                            <li>
+                                <a href="#">
+                                    Thành Đô
+                                </a>
+                            </li>
+                            <li>
+                                <a href="login.html">
+                                    <i class="fa fa-sign-out"></i> Log out
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
+
+            <div  class="wrapper wrapper-content">
+                <div  class="container">
+                    @RenderBody()
+                </div>
+            </div>
+
+            <div class="footer">
+                <div>
+                    <strong>Copyright</strong> Chan Lap &copy; @DateTime.Now.Year
+                </div>
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+        @*<div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+            </div>
+            <div class="container body-content">
+                @RenderBody()
+                <hr />
+                <footer>
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                </footer>
+            </div>*@
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    <!-- Mainly scripts -->
+    <script src="~/scripts/jquery-2.1.1.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="~/scripts/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- Custom and plugin javascript -->
+    <script src="~/scripts/inspinia.js"></script>
+    <script src="~/scripts/plugins/pace/pace.min.js"></script>
+
     @RenderSection("scripts", required: false)
 </body>
 </html>

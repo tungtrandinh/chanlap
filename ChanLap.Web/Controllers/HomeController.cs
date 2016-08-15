@@ -11,16 +11,16 @@ namespace ChanLap.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IUserRepository repository;
-        private readonly IUserService service;
-        public HomeController(IUserRepository _repository, IUserService _service) {
-            this.repository = _repository;
-            this.service    = _service;
-        }
+        //private readonly IUserRepository repository;
+        //private readonly IUserService service;
+        //public HomeController(IUserRepository _repository, IUserService _service) {
+        //    this.repository = _repository;
+        //    this.service    = _service;
+        //}
 
         public ActionResult Index()
         {
-            this.repository.GetAll();
+            //this.repository.GetAll();
             return View();
         }
 
