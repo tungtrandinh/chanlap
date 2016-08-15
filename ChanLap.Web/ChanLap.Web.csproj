@@ -354,6 +354,7 @@
     <Folder Include="Content\img\" />
     <Folder Include="Content\patterns\" />
     <Folder Include="Content\plugins\" />
+    <Folder Include="Email-template\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
