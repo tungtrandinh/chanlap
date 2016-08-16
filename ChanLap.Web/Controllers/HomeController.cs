@@ -9,7 +9,7 @@ using ChanLap.Service;
 
 namespace ChanLap.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         //private readonly IUserRepository repository;
         //private readonly IUserService service;
