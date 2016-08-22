@@ -182,3 +182,10 @@ D:\OWN\Project\Chanlap\ChanLap.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.
 D:\OWN\Project\Chanlap\ChanLap.Web\obj\Debug\ChanLap.Web.csprojResolveAssemblyReference.cache
 D:\OWN\Project\Chanlap\ChanLap.Web\obj\Debug\ChanLap.Web.dll
 D:\OWN\Project\Chanlap\ChanLap.Web\obj\Debug\ChanLap.Web.pdb
+D:\OWN\Project\Chanlap\ChanLap.Web\bin\Autofac.dll
+D:\OWN\Project\Chanlap\ChanLap.Web\bin\Autofac.Integration.Mvc.dll
+D:\OWN\Project\Chanlap\ChanLap.Web\bin\AutoMapper.dll
+D:\OWN\Project\Chanlap\ChanLap.Web\bin\Autofac.xml
+D:\OWN\Project\Chanlap\ChanLap.Web\bin\Autofac.Integration.Mvc.xml
+D:\OWN\Project\Chanlap\ChanLap.Web\bin\AutoMapper.pdb
+D:\OWN\Project\Chanlap\ChanLap.Web\bin\AutoMapper.xml

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChanLap.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,7 @@ namespace ChanLap.Web
     {
         protected void Application_Start()
         {
+            System.Data.Entity.Database.SetInitializer(new ChanLapData());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
